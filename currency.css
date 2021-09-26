@@ -1,0 +1,26 @@
+/* Pen-specific styles */
+html, body, section, div {
+  height: 20vh;
+}
+/* 
+body {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  text-shadow: 0 2px 2px black;
+} */
+/* Pattern styles */
+.container {
+  display: grid;
+}
+
+.div-convert {
+  /* background: #ff9e2c; */
+  grid-row: 1;
+}
+
+.div-history {
+  /* background: rgba(143, 54, 54, 0.493); */
+  grid-row: 2;
+}
