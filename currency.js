@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
            
             if(rate !== undefined) {
                 // document.querySelector('#result-2').innerHTML = `${numCurr} EUR is equal to ${conversion(rate, numCurr).toFixed(3)} ${currency}`;
-                                document.querySelector('#result-2').innerHTML = `${numCurr} EUR is equal to ${Converted(rate, numCurr)} ${currency}`;
+                                document.querySelector('#result-2').innerHTML = `${numCurr} EUR is equal to ${Converted(rate, numCurr).toFixed(2)} ${currency}`;
                 } else {
                         document.querySelector('#result-2').innerHTML = `INVALID CURRENCY.`
                     }
